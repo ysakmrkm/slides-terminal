@@ -1,0 +1,15 @@
+block vars
+  - var category = "index"
+  - var page = "index"
+
+extend _layout
+
+block head
+
+block main
+  textarea#source
+
+block script
+  script(src="js/remark-latest.min.js")
+  script.
+    var slideshow = remark.create();
