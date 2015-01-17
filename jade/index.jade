@@ -5,9 +5,16 @@ block vars
 extend _layout
 
 block head
+  style
+    include ../css/style.css
 
 block main
   textarea#source
+    | name: inverse
+    | layout: true
+    | class: center, middle, inverse
+    | ---
+    | # 怖くない黒い画面
 
 block script
   script(src="js/remark-latest.min.js")
