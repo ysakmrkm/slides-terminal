@@ -68,3 +68,28 @@ p {
 		}
 	}
 }
+
+.hljs-default {
+	.bash {
+		.hljs-keyword,
+		.hljs-id,
+		.hljs-title,
+		.hljs-built_in,
+		.css .hljs-tag,
+		.hljs-javadoctag,
+		.hljs-phpdoc,
+		.hljs-yardoctag,
+		.smalltalk .hljs-class,
+		.hljs-winutils,
+		.bash .hljs-variable,
+		.apache .hljs-tag,
+		.go .hljs-typename,
+		.tex .hljs-command,
+		.asciidoc .hljs-strong,
+		.markdown .hljs-strong,
+		.hljs-request,
+		.hljs-status {
+			font-weight: normal;
+		}
+	}
+}

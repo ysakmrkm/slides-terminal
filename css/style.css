@@ -59,4 +59,25 @@ p {
   color: #fff;
 }
 
+.hljs-default .bash .hljs-keyword,
+.hljs-default .bash .hljs-id,
+.hljs-default .bash .hljs-title,
+.hljs-default .bash .hljs-built_in,
+.hljs-default .bash .css .hljs-tag,
+.hljs-default .bash .hljs-javadoctag,
+.hljs-default .bash .hljs-phpdoc,
+.hljs-default .bash .hljs-yardoctag,
+.hljs-default .bash .smalltalk .hljs-class,
+.hljs-default .bash .hljs-winutils,
+.hljs-default .bash .bash .hljs-variable,
+.hljs-default .bash .apache .hljs-tag,
+.hljs-default .bash .go .hljs-typename,
+.hljs-default .bash .tex .hljs-command,
+.hljs-default .bash .asciidoc .hljs-strong,
+.hljs-default .bash .markdown .hljs-strong,
+.hljs-default .bash .hljs-request,
+.hljs-default .bash .hljs-status {
+  font-weight: normal;
+}
+
 /*# sourceMappingURL=style.css.map */
