@@ -173,6 +173,38 @@
       ---
       class: center, middle, inverse
       # どの様に使うか
+      ---
+      class: two-column
+      .left-column[
+      ## どの様に使うか
+      ### 設定を変更する
+      ]
+      .right-column[
+      # 設定を変更する
+       
+      ## 隠しファイルを表示する
+       
+      ```bash
+      $ defaults write com.apple.finder AppleShowAllFiles true
+      $ killall Finder
+      ```
+      ]
+      ---
+      class: two-column
+      .left-column[
+      ## どの様に使うか
+      ### 設定を変更する
+      ]
+      .right-column[
+      # 設定を変更する
+       
+      ## クイックルック内のテキストをコピーする
+       
+      ```bash
+      $ defaults write com.apple.finder QLEnableTextSelection -bool true
+      $ killall Finder
+      ```
+      ]
     </textarea>
     <script src="js/remark-latest.min.js"></script>
     <script>var slideshow = remark.create();</script>
