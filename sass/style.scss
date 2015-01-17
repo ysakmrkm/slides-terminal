@@ -1,6 +1,28 @@
 @import 'core';
 @import 'compass';
 
+p {
+	line-height: 1;
+}
+
+.remark-slide-content {
+	h1 {
+		font-size: 2.4em;
+	}
+
+	h2 {
+		font-size: 1.6em;
+	}
+
+	h3 {
+		font-size: 1.4em;
+	}
+
+	img {
+		width: 100%;
+	}
+}
+
 .inverse {
 	background: #272822;
 	color: #fff;
