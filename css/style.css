@@ -14,11 +14,49 @@ p {
 .remark-slide-content img {
   width: 100%;
 }
+.remark-slide-content.two-column {
+  display: -webkit-flex;
+  display: flex;
+  height: 100%;
+}
+
+.footnote {
+  font-size: 12px;
+  line-height: 1;
+}
+.footnote > * {
+  font-size: 12px;
+  line-height: 1;
+}
+
+.left-column {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 30%;
+  color: #777;
+}
+.left-column h2:last-of-type,
+.left-column h3:last-child {
+  color: #000;
+}
+
+.right-column {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 70%;
+  padding-left: 2em;
+}
 
 .inverse {
   background: #272822;
   color: #fff;
   text-shadow: 0 0 20px #333;
+}
+.inverse .left-column h2:last-of-type,
+.inverse .left-column h3:last-child {
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */

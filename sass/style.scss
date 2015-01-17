@@ -21,10 +21,50 @@ p {
 	img {
 		width: 100%;
 	}
+
+	&.two-column {
+		@include display-flex;
+		height: 100%;
+	}
 }
+
+.footnote {
+	font-size: 12px;
+	line-height: 1;
+
+	> * {
+		font-size: 12px;
+		line-height: 1;
+	}
+}
+
+.left-column {
+	@include box-sizing(border-box);
+	width: 30%;
+	color: #777;
+
+	h2:last-of-type ,
+	h3:last-child {
+		color: #000;
+	}
+}
+
+.right-column {
+	@include box-sizing(border-box);
+	width: 70%;
+	padding-left: 2em;
+}
+
 
 .inverse {
 	background: #272822;
 	color: #fff;
 	text-shadow: 0 0 20px #333;
+
+	.left-column {
+		h2:last-of-type ,
+		h3:last-child {
+			color: #fff;
+		}
+	}
 }
